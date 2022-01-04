@@ -1,0 +1,21 @@
+.tivi{
+	top:850px;
+	width: 475px;
+	height: 600px;
+    display: inline;
+}
+.act{
+    padding:50px;
+	top:850px;
+	width: 800px;
+	height: 500px;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 10px 20px rgba(0,0,0,0.5);
+
+	
+}
+li{
+    list-style-position: inside;
+    text-align: justify;
+    line-height: 35px;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,rgba(15,0,0,0.3),rgba(20,0,0,0.5)),
+    url('image/un.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{ 
+    background-color: black;
+    width: 100%;  
+    position:fixed; 
+    height: 100px; 
+    overflow: hidden; 
+    line-height:70%
+}
+.logo{
+    width:190px;
+    float:left;
+    height:95px;
+}
+nav{
+    float: right;
+}
+a{
+    float: left;
+    padding: 45px;
+    color:white;
+    text-decoration: none;
+    font-family: serif;
+}
+nav a:hover{
+    background:red;
+}
+.pic{
+padding-top: 50px; 
+}
+.footer{
+    border:2px solid black;
+    height:590px;
+    background-color: rgb(46, 44, 44);
+}
+.log{
+    height:100px;
+    width: 200px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+h2{
+    color:white;
+}
+.link-in{
+    padding-left: 40px;
+}
+.art{
+    padding-top: 380px;
+    color:white;
+}
+.maps{
+    width:70%; 
+    height:350px;
+    float:right;
+
+}
+

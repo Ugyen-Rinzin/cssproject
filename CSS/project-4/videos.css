@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,rgba(15,0,0,0.3),rgba(20,0,0,0.5)),url('https://media.istockphoto.com/videos/realistic-drifting-smoke-clouds-fog-overlay-video-id1162348949?s=640x640');
+}
+.navbar{ 
+    background-color: rgb(110, 109, 109);
+    width: 100%;  
+    position:fixed; 
+    height: 100px; 
+    overflow: hidden; 
+    line-height:70%
+}
+.logo{
+    width:190px;
+    float:left;
+    height:50px;
+    padding-top:25px;
+    padding-left: 25px;
+}
+nav{
+    float: right;
+}
+a{
+    float: left;
+    padding: 50px;
+    font-family: serif;
+    color:white;
+}
+nav a:hover{
+    background:blue;
+}
+.pic{
+padding-top: 50px; 
+}
+.cont{
+    padding-top:100px;
+}
+.footer{
+    height:150px;
+    width:100%;
+    color:white;
+    background-color: rgb(94, 89, 89); 
+   
+}
+a{
+    text-decoration: none;
+}
+h1,p,h3{
+    color:white;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

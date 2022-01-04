@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,rgba(15,0,0,0.3),rgba(20,0,0,0.5)),url('image/aKPFuR.jpg');
+}
+.navbar{ 
+    background-color: rgb(110, 109, 109);
+    width: 100%;  
+    position:fixed; 
+    height: 100px; 
+    overflow: hidden; 
+    line-height:70%
+}
+.logo{
+    width:190px;
+    float:left;
+    height:50px;
+    padding-top:25px;
+    padding-left: 25px;
+}
+nav{
+    float: right;
+}
+a{
+    float: left;
+    padding: 50px;
+    font-family: serif;
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    background:blue;
+}
+.pic{
+padding-top: 50px; 
+}
+.conta{
+    padding-top:120px;
+}
